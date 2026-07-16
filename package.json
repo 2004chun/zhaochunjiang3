@@ -1,14 +1,386 @@
 {
-  "name": "portfolio-website",
-  "private": true,
-  "version": "1.0.0",
-  "type": "module",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview"
+  "categories": [
+    {
+      "id": "casual",
+      "title": "2D休闲游戏",
+      "subtitle": "CASUAL GAMES",
+      "description": "专注休闲游戏买量素材制作，涵盖消除、合成、放置、解谜等多种休闲品类，擅长用轻松有趣的视觉表现抓住玩家注意力，提升广告点击。",
+      "label": "休闲",
+      "colors": [
+        "#34d399",
+        "#22d3ee",
+        "#3b82f6"
+      ],
+      "tags": [
+        "消除类",
+        "合成类",
+        "放置挂机",
+        "解谜闯关"
+      ],
+      "number": "01",
+      "videos": [
+        {
+          "id": "1",
+          "title": "杖剑传说 - 玩偶盲盒流水线",
+          "description": "玩偶盲盒流水线创意投放视频",
+          "url": "https://cropgif.net/videos/1784221393405-f19f82cf-a3ad-446e-9984-94ff0a3c1c2b.mp4",
+          "tags": [
+            "盲盒",
+            "流水线",
+            "创意"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "凡物 - 旗袍",
+          "description": "国风旗袍主题休闲游戏投放",
+          "url": "https://cropgif.net/videos/1784221435655-6142bb94-a1e7-4b50-9b6c-eb22ef1fbdc2.mp4",
+          "tags": [
+            "国风",
+            "旗袍",
+            "换装"
+          ]
+        },
+        {
+          "id": "3",
+          "title": "Bricks Breaker Quest - VR扫描",
+          "description": "VR扫描风格打砖块游戏投放视频",
+          "url": "https://cropgif.net/videos/1784221447075-521eb61c-ef5d-4015-8137-5e746a7e7c4f.mp4",
+          "tags": [
+            "VR",
+            "打砖块",
+            "扫描"
+          ]
+        },
+        {
+          "id": "4",
+          "title": "杜拉拉H5 - 选择人生",
+          "description": "人生选择类休闲互动H5",
+          "url": "https://cropgif.net/videos/1784221469756-4dac9197-d423-402f-9e27-541a623bb745.mp4",
+          "tags": [
+            "H5",
+            "选择",
+            "人生"
+          ]
+        },
+        {
+          "id": "5",
+          "title": "向往的生活 - 插销引水救人",
+          "description": "插销解谜类休闲游戏投放",
+          "url": "https://cropgif.net/videos/1784221460982-b056ce01-7e60-41e2-ac09-aedd5f5b82ce.mp4",
+          "tags": [
+            "插销",
+            "解谜",
+            "救人"
+          ]
+        },
+        {
+          "id": "6",
+          "title": "向往的生活 - 悬浮家具摆放",
+          "description": "家具摆放装饰类休闲玩法",
+          "url": "https://cropgif.net/videos/1784221471061-111e83c7-469c-4e2a-aee2-6fe3abc191b3.mp4",
+          "tags": [
+            "家具",
+            "装饰",
+            "摆放"
+          ]
+        },
+        {
+          "id": "7",
+          "title": "向往的生活 - 滑梯流水线",
+          "description": "滑梯流水线创意玩法展示",
+          "url": "https://cropgif.net/videos/1784221470237-0958ff5c-1ec5-4e87-b5ab-bccdc40245c8.mp4",
+          "tags": [
+            "滑梯",
+            "流水线",
+            "创意"
+          ]
+        },
+        {
+          "id": "8",
+          "title": "向往的生活 - 插花教学",
+          "description": "插花教学主题休闲游戏投放",
+          "url": "https://cropgif.net/videos/1784221470143-a34cc34c-0890-4644-a7d8-478c4c7a3c49.mp4",
+          "tags": [
+            "插花",
+            "教学",
+            "休闲"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "battle",
+      "title": "2D战斗游戏",
+      "subtitle": "BATTLE GAMES",
+      "description": "深耕战斗类游戏买量视频制作，精通技能特效、打击感表现与战斗节奏把控，通过高燃视觉画面精准传递游戏核心卖点，打造高吸量战斗素材。",
+      "label": "战斗",
+      "colors": [
+        "#f472b6",
+        "#fb7185",
+        "#a855f7"
+      ],
+      "tags": [
+        "技能特效",
+        "战斗剪辑",
+        "BOSS战",
+        "PVP对战"
+      ],
+      "number": "02",
+      "videos": [
+        {
+          "id": "1",
+          "title": "CCG - 角色升级点击爽感",
+          "description": "角色升级点击爽感战斗展示",
+          "url": "https://cropgif.net/videos/1784221626465-722c6146-d707-4b19-be75-66b8b72af361.mp4",
+          "tags": [
+            "升级",
+            "爽感",
+            "点击"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "CCG - 排行榜升级逆袭",
+          "description": "排行榜升级逆袭战斗玩法",
+          "url": "https://cropgif.net/videos/1784221632547-998dbb86-3273-4e7c-afed-42980a542b64.mp4",
+          "tags": [
+            "排行榜",
+            "逆袭",
+            "升级"
+          ]
+        },
+        {
+          "id": "3",
+          "title": "武将 - 打铁加点满神装",
+          "description": "打铁加点神装养成战斗",
+          "url": "https://cropgif.net/videos/1784221636778-ef786b30-144e-4051-8ba3-0c12ab957839.mp4",
+          "tags": [
+            "武将",
+            "打铁",
+            "神装"
+          ]
+        },
+        {
+          "id": "4",
+          "title": "武将 - 招募组队",
+          "description": "招募武将组队战斗玩法",
+          "url": "https://cropgif.net/videos/1784221729221-abbf52a5-e455-4093-b1b6-cbb0731edf70.mp4",
+          "tags": [
+            "招募",
+            "组队",
+            "武将"
+          ]
+        },
+        {
+          "id": "5",
+          "title": "帝国史诗 - 装备收集",
+          "description": "装备收集战斗系统展示",
+          "url": "https://cropgif.net/videos/1784221661277-6b80c5cc-5011-498f-9ecd-a73f6cb72a46.mp4",
+          "tags": [
+            "装备",
+            "收集",
+            "史诗"
+          ]
+        },
+        {
+          "id": "6",
+          "title": "你去干掉Boss",
+          "description": "Boss战战斗投放视频",
+          "url": "https://cropgif.net/videos/1784221680578-46159cf5-e345-42d6-9aac-68ab42bd9fba.mp4",
+          "tags": [
+            "Boss",
+            "战斗",
+            "挑战"
+          ]
+        },
+        {
+          "id": "7",
+          "title": "英雄没有闪 - 开局选套装",
+          "description": "开局选套装战斗玩法",
+          "url": "https://cropgif.net/videos/1784221680163-d767a6e8-9f1f-43a2-881d-98b819ec4b63.mp4",
+          "tags": [
+            "套装",
+            "开局",
+            "选择"
+          ]
+        },
+        {
+          "id": "8",
+          "title": "英雄没有闪 - 双屏对比迭代",
+          "description": "双屏对比战斗效果迭代",
+          "url": "https://cropgif.net/videos/1784221689368-ce98fd3b-4517-4114-b4b8-1eb39bfd6447.mp4",
+          "tags": [
+            "对比",
+            "迭代",
+            "效果"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "aigc",
+      "title": "AIGC动画",
+      "subtitle": "AIGC ANIMATION",
+      "description": "结合AI生图与AI视频生成工具，快速产出高质量AIGC动画素材，涵盖角色展示、场景概念、动态海报等多种形式，大幅提升素材生产效率与创意表现。",
+      "label": "AIGC",
+      "colors": [
+        "#818cf8",
+        "#a78bfa",
+        "#38bdf8"
+      ],
+      "tags": [
+        "AI生图",
+        "AI视频",
+        "角色动画",
+        "概念设计"
+      ],
+      "number": "03",
+      "videos": [
+        {
+          "id": "1",
+          "title": "AIGC 日系青春动画",
+          "description": "AI生成角色动画效果展示",
+          "url": "https://cropgif.net/videos/1784217277485-29f11333-7eff-4563-a98f-bbd3eca44c9d.mp4",
+          "tags": [
+            "日系",
+            "动画",
+            "青春"
+          ]
+        },
+        {
+          "id": "2",
+          "title": "AIGC 小猫动画1",
+          "description": "AI生成卡通动画",
+          "url": "https://cropgif.net/videos/1784217437401-134f7633-0ae6-406a-93cf-75758397dbce.mp4",
+          "tags": [
+            "卡通",
+            "小猫",
+            "搞笑"
+          ]
+        },
+        {
+          "id": "3",
+          "title": "AlGC 小猫动画2",
+          "description": "A生成卡通动画",
+          "url": "https://cropgif.net/videos/1784217306231-b274c69e-17d3-4027-8081-a4b7b96ad8d6.mp4",
+          "tags": [
+            "卡通",
+            "小猫",
+            "搞笑"
+          ]
+        },
+        {
+          "id": "4",
+          "title": "AIGC 小猫动画3",
+          "description": "AI生成创意转场效果",
+          "url": "https://cropgif.net/videos/1784217318738-bed18c54-da77-4d31-b315-f002d4e5f0aa.mp4",
+          "tags": [
+            "卡通",
+            "小猫",
+            "搞笑"
+          ]
+        },
+        {
+          "id": "5",
+          "title": "AIGC 青春暗恋动画",
+          "description": "AI生成角色动画",
+          "url": "https://cropgif.net/videos/1784217642571-37544454-8abc-4439-962e-edb9d03f66c5.mp4",
+          "tags": [
+            "青春",
+            "暗恋",
+            "校园"
+          ]
+        },
+        {
+          "id": "6",
+          "title": "AIGC 韩系舞蹈动画",
+          "description": "AI生成跳舞动画",
+          "url": "https://cropgif.net/videos/1784217731407-4bbeda26-ff6e-4285-828a-5000707f51b7.mp4",
+          "tags": [
+            "韩系",
+            "跳舞",
+            "时尚"
+          ]
+        },
+        {
+          "id": "7",
+          "title": "AIGC 中式舞蹈动画",
+          "description": "AI生成古装跳舞动画",
+          "url": "https://cropgif.net/videos/1784217347788-954a9eb9-8bda-4cdd-9341-ce58e18dee47.mp4",
+          "tags": [
+            "古装",
+            "跳舞",
+            "皇宫"
+          ]
+        },
+        {
+          "id": "8",
+          "title": "AIGC 遥控车动画",
+          "description": "AI生成遥控车竞速动画",
+          "url": "https://cropgif.net/videos/1784217338112-fffc1262-5181-4548-835f-26e14538ad59.mp4",
+          "tags": [
+            "遥控车",
+            "居家",
+            "竞速"
+          ]
+        }
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "title": "视频全流程制作",
+      "desc": "精通AE特效合成、PR剪辑，独立完成游戏买量视频全流程制作",
+      "icon": "🎬",
+      "number": "01",
+      "color": "#3b82f6"
+    },
+    {
+      "title": "2D动效设计",
+      "desc": "熟练2D动效、画面包装、节奏卡点，精通信息流广告风格",
+      "icon": "✨",
+      "number": "02",
+      "color": "#f472b6"
+    },
+    {
+      "title": "AIGC素材生产",
+      "desc": "掌握AI生图、AI视频生成、AI素材优化，快速产出高质量买量素材",
+      "icon": "🤖",
+      "number": "03",
+      "color": "#a855f7"
+    },
+    {
+      "title": "买量策略思维",
+      "desc": "熟悉游戏买量逻辑，懂吸量节奏、投放风格、素材迭代思路",
+      "icon": "📊",
+      "number": "04",
+      "color": "#06b6d4"
+    },
+    {
+      "title": "高效交付能力",
+      "desc": "高效出片、抗压性强，完美适配买量行业快节奏工作模式",
+      "icon": "⚡",
+      "number": "05",
+      "color": "#f59e0b"
+    },
+    {
+      "title": "审美与创意思维",
+      "desc": "具备优秀的审美能力与创意发散思维，精准捕捉游戏核心卖点并转化为高吸量视觉表现",
+      "icon": "🎨",
+      "number": "06",
+      "color": "#ec4899"
+    }
+  ],
+  "personalInfo": {
+    "name": "赵春江",
+    "title": "2D游戏买量设计师 / AIGC设计师",
+    "experience": "2",
+    "city": "成都",
+    "email": "2090158964@qq.com",
+    "wechat": "13684235245",
+    "phone": "13684235245",
+    "bio": "专注游戏买量视频制作2年，精通AE/PR全流程，熟练掌握AI生图与AI视频生成技术。擅长2D动效设计、画面包装与节奏卡点，熟悉游戏买量逻辑与吸量思路。能够快速产出高质量买量素材，抗压能力强，适配买量行业快节奏工作模式。"
   },
-  "devDependencies": {
-    "vite": "^5.4.0"
-  }
+  "heroVideo": "https://cropgif.net/videos/1784217338112-fffc1262-5181-4548-835f-26e14538ad59.mp4"
 }
